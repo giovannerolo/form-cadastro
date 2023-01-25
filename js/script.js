@@ -1,10 +1,4 @@
-class Enviar {
-  constructor(enviar) {
-    this.enviar = document.querySelector(enviar);
-  }
+import initValidarSenha from "./validarSenha.js";
 
-  pressionarBotao(pressionar) {
-    const pressionar = this.enviar();
-    pressionar.
-  }
-}
+
+initValidarSenha();
